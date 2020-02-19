@@ -1,0 +1,160 @@
+body{
+  background-color: #e5dfdf;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Grand Hotel, sans-serif;
+  color: #1d4d4f;
+  font-size: 20px;
+}
+
+body hr{
+  border-top: 2px dotted #79bac1;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 15%;
+  border-width: 16px;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 3rem;
+}
+
+a{
+  text-decoration: none;
+  color: #1d4d4f;
+}
+
+a:hover{
+  color: #79bac1;
+}
+
+.top-container{
+  display: block;
+  background-image: url("../images/mountain1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 90px;
+  padding-top: 300px;
+  margin: 0;
+}
+
+.top-container .nav-bar{
+  display: block;
+  position: relative;
+  bottom: 350px;
+  margin-top: 5%;
+}
+
+
+.top-container .nav-bar .logo{
+  display: inline;
+  position: absolute;
+  left: 15%;
+}
+
+
+.top-container .nav-bar .list{
+  display: inline;
+  position: absolute;
+  right: 15%;
+  top: auto;
+}
+
+.top-container .nav-bar .list li{
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  width: 150px;
+  font-family: Grand Hotel, sans-serif;
+  font-size: 30px;
+}
+
+.top-container .introduction{
+  display: inline-block;
+  position: relative;
+  bottom: 100px;
+}
+
+.top-container .introduction{
+  font-family: Rochester, sans-serif;
+  font-size: 30px;
+}
+
+.middle-container {
+  width: 60%;
+  margin: auto;
+}
+
+.middle-container h2{
+  font-size: 44px;
+}
+
+.middle-container .profile{
+  margin-top: 1.5rem;
+}
+
+.middle-container .skills h2{
+  margin-bottom: 32px;
+}
+
+.middle-container .skills .skill-row{
+  text-align: left;
+  margin-top: 50px;
+}
+
+.middle-container .skills .think{
+  width: 15%;
+  float: left;
+  margin-right: 32px;
+}
+
+.middle-container .skills .soccer{
+  width: 14%;
+  float: right;
+  margin-left: 32px;
+}
+
+.middle-container .contact-me .btn{
+  background-color: #2a7886;
+  display: block;
+  width: 20%;
+  padding: 2.5%;
+  margin: 48px auto;
+  border-radius: 16px;
+  font-size: 24px;
+  color: #e5dfdf;
+  text-decoration: none;
+  font-family: Saira Semi Condensed, sans-serif;
+}
+
+.middle-container .contact-me .btn:hover{
+  background-color: #00a8cc;
+}
+
+.bottom-container{
+  margin-top: 100px;
+  background-color: #79bac1;
+  padding: 30px 0px 0px;
+}
+
+.bottom-container .footer-link{
+  margin: 0px 60px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #27496d;
+}
+
+.bottom-container .footer-link:hover{
+  color: #e5dfdf;
+}
+
+.bottom-container p{
+  color: #0c7b93;
+  font-family: Grand Hotel, sans-serif;
+  margin: 20px 0px 0px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
